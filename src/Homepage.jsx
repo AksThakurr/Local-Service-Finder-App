@@ -4,11 +4,14 @@ import Item from './item';
 function Homepage()
 {
     return(
-        <div>
-           <Navbar/>
+       
+        <>
+            <Navbar/>
             <HeroSection/>
-            <Item />
-        </div>
+            <Item/> 
+        </>
+           
+      
            
     )
 }

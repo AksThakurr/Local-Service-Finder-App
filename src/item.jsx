@@ -1,4 +1,4 @@
-import "./item";
+import "./item.css";
 function Item()
 {
     console.log("Item Component Rendered");

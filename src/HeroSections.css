@@ -1,11 +1,18 @@
-.herosection{
+.container{
     background-color: #0267ff;
     color: #ffffff;
-    position: fixed;
-    top:65px;
-    left: 0;
-    width: 100%;
+       width: 100vw;
       height:300px;
+      margin: 0;
+      padding: 0;
+     position:relative;
+       top:66px;
+}
+.hero
+{
+   
+   padding-top: 50px;
+
 }
 .search-bar{
     display: flex;
