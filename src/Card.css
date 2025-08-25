@@ -1,0 +1,49 @@
+.card
+{
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   margin:50px;
+   border-radius: 10px;
+   cursor:pointer;
+   transition: 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+.card:hover{
+    transform: scale(1.05);
+    background-color: #f0f8ff;
+}
+.cards-container{
+     display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    margin-top: 20px;
+    justify-content: center; 
+}
+/* -------- Responsive Breakpoints -------- */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

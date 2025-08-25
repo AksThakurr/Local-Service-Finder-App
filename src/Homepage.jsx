@@ -1,6 +1,6 @@
 import Navbar from './navbar';
 import HeroSection from './HeroSection';
-import Item from './item';
+import Allcard from './All_card.jsx';
 function Homepage()
 {
     return(
@@ -8,7 +8,7 @@ function Homepage()
         <>
             <Navbar/>
             <HeroSection/>
-            <Item/> 
+            <Allcard/> 
         </>
            
       
